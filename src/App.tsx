@@ -1,13 +1,11 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// import { useState } from 'react'
 import './App.css'
 
 import MyNav from './components/mynav/MyNav'
 import MyWork from './components/mywork/MyWork'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,6 +19,9 @@ function App() {
       <section>
       <h2> My Works</h2>
       <MyWork></MyWork>
+      </section>
+      <section>
+        <h2>My Notes</h2>
       </section>
 
     </main>
